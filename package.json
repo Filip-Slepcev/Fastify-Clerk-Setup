@@ -9,10 +9,8 @@
     "authentication"
   ],
   "scripts": {
-    "start": "npx ts-node src/index.ts",
-    "start:runtime-keys": "npx ts-node src/using-runtime-keys.ts",
-    "start:specific-routes": "npx ts-node src/authenticating-specific-routes.ts",
-    "dev": "npx nodemon src/index.ts"
+    "start": "npx ts-node src/server.ts",
+    "dev": "npx nodemon src/server.ts"
   },
   "dependencies": {
     "@clerk/fastify": "latest",
